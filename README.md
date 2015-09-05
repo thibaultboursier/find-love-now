@@ -1,2 +1,2 @@
 # jocular-octo-woof
-crud application width angularjs and expressjs
+crud application with angularjs and expressjs
