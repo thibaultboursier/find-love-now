@@ -8,8 +8,9 @@
         "type": "git",
         "url": "https://github.com/thibaultboursier/jocular-octo-woof.git"
     },
-    "devDependencies": {
+    "dependencies": {
         "express":"latest",
+        "mongoose":"latest",
         "grunt": "0.4.2",
         "grunt-contrib-concat":     "0.3.0",
         "grunt-contrib-copy":       "0.5.0",

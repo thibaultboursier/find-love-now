@@ -3,6 +3,7 @@
   "description": "crud application width angularjs and expressjs",
   "dependencies": {
     "angular": "latest",
-    "angular-route": "latest"
+    "angular-route": "latest",
+    "bootstrap":"latest"
   }
 }
