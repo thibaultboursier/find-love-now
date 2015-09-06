@@ -1,0 +1,8 @@
+{
+  "name": "jocular-octo-woof",
+  "description": "crud application width angularjs and expressjs",
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest"
+  }
+}
