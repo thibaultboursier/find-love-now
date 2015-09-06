@@ -2,7 +2,7 @@
     "name": "jocular-octo-woof",
     "namelower": "jocular-octo-woof",
     "version": "0.0.1",
-    "description": "crud application width angularjs and expressjs ",
+    "description": "crud application width angularjs and expressjs",
     "readme": "README.md",
     "repository": {
         "type": "git",
