@@ -5,6 +5,7 @@
     "angular": "latest",
     "angular-route": "latest",
     "angular-resource": "latest",
-    "bootstrap":"latest"
+    "bootstrap":"latest",
+    "font-awesome": "latest"
   }
 }

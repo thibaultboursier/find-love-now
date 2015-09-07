@@ -5,18 +5,21 @@
     <meta charset="UTF-8">
     <title>JOW - crud application width angularjs and expressjs</title>
 
+    <link href='https://fonts.googleapis.com/css?family=Rubik:400,500' rel='stylesheet' type='text/css'>
+
     <!-- stylesheets -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="assets/css/app.css">
     <!-- end stylesheets -->
 </head>
-<body>
-
-<nav ng-include="'views/common/nav.html'" class="main"></nav>
+<body class="page">
 
 <div class="container">
-    <ng-view></ng-view>
+    <nav ng-include="'views/common/nav.html'" class="main"></nav>
 </div>
+
+<ng-view></ng-view>
 
 <!-- dependencies -->
 <script src="bower_components/jquery/dist/jquery.js"></script>
