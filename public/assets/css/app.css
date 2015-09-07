@@ -14,12 +14,16 @@ nav.main ul{
   padding: 0;
 }
 
+nav.main ul li{
+  display: inline-block;
+}
+
 nav.main ul li a{
   color: crimson;
   font-size:1.7em;
   text-decoration:none;
   display:inline-block;
-  margin-right:15px;
+  margin-right:30px;
 }
 
 header{
@@ -35,6 +39,13 @@ header h1{
   font-size:4em;
   margin-top:70px;
   color:#333;
+}
+
+h2{
+  text-align: center;
+  margin-top:80px;margin-bottom:20px;
+  font-size:1.5em;
+  line-height:1.8em;
 }
 
 header h1 i{
@@ -71,11 +82,16 @@ form input{
   width:300px;
   font-size:1.6em;
   border-radius:5px;
+  transition:0.2s all linear;
+}
+
+form input:focus{
+  width:450px;
 }
 
 form button{
   margin-left:3px;
-  padding:10px;
+  padding:10px 14px;
   height:50px;
   background-color:crimson;
   color:#fff;
