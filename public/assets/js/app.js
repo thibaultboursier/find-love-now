@@ -1,6 +1,7 @@
 angular
     .module('jowApp', [
-    'ngRoute'
+    'ngRoute',
+    'ngResource'
     ])
 .config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
 
@@ -8,6 +9,10 @@ angular
             .when('/home', {
                 controller:'homeCtrl',
                 templateUrl:'../views/home.html'
+            })
+            .when('/members', {
+                controller:'membersCtrl',
+                templateUrl:'../views/members.html'
             })
             .otherwise({
                 redirectTo: '/home'
