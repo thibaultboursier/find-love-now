@@ -19,11 +19,19 @@ module.exports = function(grunt) {
                     script: 'server.js'
                 }
             }
+        },
+        wiredep: {
+            task: {
+                src: [
+                    'public/index.html'
+                ]
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-express-server');
+    grunt.loadNpmTasks('grunt-wiredep');
 
-    grunt.registerTask('default', ['express:dev', 'watch']);
+    grunt.registerTask('default', ['wiredep', 'express:dev', 'watch']);
 };

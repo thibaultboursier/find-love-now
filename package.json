@@ -30,5 +30,8 @@
   },
   "scripts": {
     "postinstall": "bower install"
+  },
+  "devDependencies": {
+    "grunt-wiredep": "^2.0.0"
   }
 }
