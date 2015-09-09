@@ -1,5 +1,5 @@
 angular
-    .module('jowApp', [
+    .module('flnApp', [
     'ngRoute',
     'ngResource'
     ])
