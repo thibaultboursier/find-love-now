@@ -3,9 +3,12 @@
  */
 
 var express = require('express'),
+    mongoose = require('mongoose'),
     path = require('path'),
     app = express(),
     port = 3000;
+
+mongoose.connect('mongodb://localhost:27017/foo');
 
 app.use('/', express.static(__dirname + '/public'));
 app.use('/bower_components',  express.static(__dirname + '/bower_components'));
