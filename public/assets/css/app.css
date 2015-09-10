@@ -1,3 +1,8 @@
+.no-padding{
+    padding-left:0;
+    padding-right:0;
+}
+
 body{
   background-color:#fffefd;
   -webkit-font-smoothing: antialiased;
@@ -6,7 +11,7 @@ body{
 }
 
 nav.main{
-  padding:15px;
+  padding:15px 15px 15px 0;
 }
 
 nav.main ul{
@@ -99,4 +104,22 @@ form button{
   font-size:1.4em;
   border:none;
   border-radius:5px;
+}
+
+.members,
+.options{
+    margin-top:40px;
+}
+
+.members .member .photo{
+    height:180px;
+    background-color:lightgrey;
+    margin-right:15px;
+    box-sizing:border-box;
+}
+
+.members .member .infos{
+    text-align:center;
+    padding-top:5px;
+    font-size:1.2em;
 }
