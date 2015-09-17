@@ -20,4 +20,20 @@ angular
 
         // activate html5 mode (without hashbang)
         $locationProvider.html5Mode(true);
+    }])
+    .run(['$rootScope', function ($rootScope) {
+
+        $rootScope.isViewLoading = false;
+
+        $rootScope.$on('$routeChangeStart', function() {
+            $rootScope.isViewLoading = true;
+        });
+
+        $rootScope.$on('$routeChangeSuccess', function() {
+            $rootScope.isViewLoading = false;
+        });
+
+        $rootScope.$on('$routeChangeError', function() {
+            $rootScope.isViewLoading = false;
+        });
     }]);
