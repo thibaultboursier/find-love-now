@@ -1,7 +1,7 @@
 {
   "name": "jocular-octo-woof",
   "namelower": "jocular-octo-woof",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "crud application width angularjs and expressjs",
   "readme": "README.md",
   "repository": {
